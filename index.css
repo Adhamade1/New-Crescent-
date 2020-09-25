@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    
+        /* background-image: url("Capture.png");
+    background-repeat: no-repeat; */
+}
+.all{
+    background-color: lightslategrey;
+    width: 800px; 
+    margin:auto;
+}
+header{
+    background-color: rgb(71, 71, 112);
+    color: darkorange;
+    /* background-color: violet; */
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header h1{
+    /* margin: 0px; */
+    /* background-color: aqua; */
+    margin-bottom: 0px;
+}
+header p.anch{
+    color: darkorange;
+    margin-top: 0px;
+    /* background-color: rgb(255, 0, 0); */
+}
+a{
+    font-size: 100%;
+}
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {
+    color:rgb(144, 236, 5); 
+    background-color:transparent; 
+    text-decoration:none}
+a:hover   {color:rgb(255, 255, 255); 
+    background-color:rgb(43, 255, 0); 
+    text-decoration:underline;
+    border: 2px solid rgb(226, 147, 43)
+}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+nav{
+   margin-top: -16px;
+   text-align: center;
+   background-color:  rgb(71, 71, 112);
+   height: 30px;
+}
+nav ul {
+list-style-type: none;
+background-color: rgb(94, 94, 156);
+/* margin: auto; */
+height: 30px;
+padding-top: 10px;
+
+}
+nav ul li{
+   background-color: rgb(255, 255, 255);
+   display: inline;
+   font-size: 18px;
+   margin-left: 20px;
+   padding: 2px;  
+   color: red      
+}
+
+div.sects{
+    background-color: yellow;
+    width: 800px;
+    margin-top: 10px
+}
+
+section{
+    background-color: blueviolet;
+    border: 2px solid peru;
+    float: left;
+    max-width: 546px;
+    /* overflow: hidden; */
+}
+aside{
+    background-color: brown;
+    border: 2px solid powderblue;
+    width: 246px;
+    float: right;
+    /* overflow: hidden; */
+}
+.aside2{
+    /* max-height: 257; */
+    padding: 0px;
+}
+.aside2 h3{
+           margin: 0px;
+           text-align: center;
+           margin-bottom: 5px;
+}
+footer{
+clear: both;
+background-color: darkorchid;
+text-align: center;
+}
+
+
+
+
